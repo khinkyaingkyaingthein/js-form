@@ -5,12 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript Word Counter</title>
+    <style>
+      .container {
+        text-align: center;
+      }
+      label {
+        display: block;
+      }
+      .highlight {
+        background-color: yellow;
+      }
+    </style>
   </head>
   <body>
-    <h1>Word Counter</h1>
-    <label for="text">Enter some text below:</label>
-    <textarea name="text" id="text" cols="60" rows="10"></textarea>
-    <div id="stat">You've written 0 words and 0 characters.</div>
+    <div class="container">
+      <h1>Word Counter</h1>
+      <label for="text">Enter some text below:</label>
+      <textarea name="text" id="text" cols="60" rows="10"></textarea>
+      <div id="stat">You've written 0 words and 0 characters.</div>
+    </div>
     <script src="./js/word_counter.js"></script>
+    <script src="./js/wc_app.js"></script>
   </body>
 </html>
